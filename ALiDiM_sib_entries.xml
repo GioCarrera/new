@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Kitāb Sībawayhi in electronic form - List of grammatical terms</title>
+            <respStmt>
+               <resp xml:id="SO">Originally prepared and encoded by</resp>
+               <name>Simona Olivieri <email>simona.olivieri@unive.it</email>
+                  <idno type="ORCIDiD">https://orcid.org/0000-0002-0154-9156</idno>
+               </name>
+               <orgName>Ca' Foscari University of Venice</orgName>
+            </respStmt>
+            <funder>2018-2020: research fellowship of the Alexander von Humboldt-Stiftung hosted at
+               the Seminar für Semitistik und Arabistik of Freie Universität Berlin</funder>
+            <funder>2020-2023: research associate and lecturer at the Seminar für Semitistik und
+               Arabistik of Freie Universität Berlin</funder>
+            <funder>2024-2029: ERC, ALiDiM, 101115616 at Ca' Foscari University of Venice</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <date>XXX</date>
+            <availability>
+               <p>Distributed as output of Simona Olivieri's research</p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This is an open access
+                  work licensed under a cc by 4.0 license</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+            <!--fill in-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <!--put single forms for each occurrence of the same term (with article, inflected, an so forth)-->
+            <entry xml:id="fi3l">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>فعل</orth>
+               </form>
+               <sense>verb</sense>
+            </entry>
+            <entry xml:id="ibtida2">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>ابتداء</orth>
+               </form>
+               <sense>inchoation</sense>
+            </entry>
+            <entry xml:id="ism_alfa3il">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>اسم الفاعل</orth>
+               </form>
+               <sense>active participle</sense>
+            </entry>
+            <entry xml:id="ism_almaf3ul">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>الاسم المفعول</orth>
+                  <orth>الاسم المفعول</orth>
+               </form>
+               <sense>passive participle</sense>
+            </entry>
+            <entry xml:id="maDi">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>الماضي</orth>
+               </form>
+               <sense>perfect</sense>
+            </entry>
+            <entry xml:id="majrur">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>جزوم</orth>
+               </form>
+               <sense>jussive/apocopate</sense>
+            </entry>
+            <entry xml:id="manSub">
+               <!--<gramGrp><pos/></gramGrp>-->
+               <form><orth>منصوب</orth>
+               </form>
+               <sense>inflected accusative/subjunctive</sense>
+            </entry>
+            <entry xml:id="marfu3">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>مرفوعا</orth>
+               </form>
+               <sense>inflected in nominative/indicative</sense>
+            </entry>
+            <entry xml:id="mubtada2">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>مبتدأ</orth>
+               </form>
+               <sense>inchoative subject</sense>
+            </entry>
+            <entry xml:id="muDari3">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>مضارع</orth>
+               </form>
+               <sense>imperfect</sense>
+            </entry>
+            <entry xml:id="naSb">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>نصب</orth>
+               </form>
+               <sense>accusative subjunctive</sense>
+
+            </entry>
+            <entry xml:id="raf3">
+               <!--               <gramGrp><pos/></gramGrp>-->
+               <form><orth>رفع</orth>
+               </form>
+               <sense>nominative/indicative</sense>
+            </entry>
+
+         </div>
+      </body>
+   </text>
+</TEI>
